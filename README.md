@@ -72,4 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-src/assets/logo.png
+## Project Logo
+
+![Project Logo](src/assets/logo.png)
