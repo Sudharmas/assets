@@ -78,3 +78,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <img src="src/assets/logo.png">
 <img src="src/assets/altius_logo.png">
+
+To display the Altius logo here and on GitHub Pages, add the image file to the public folder:
+
+- Copy your image to: `public/altius_logo.png`
+
+Then use one of these references:
+
+- In this README (works on GitHub):  
+  `![Altius Logo](public/altius_logo.png)`
+- After `npm run build` / on GitHub Pages (served from site root):  
+  `![Altius Logo](/altius_logo.png)`
+
+Example (rendered in README):
+
+![Altius Logo](public/altius_logo.png)
+
+If you need, run this from the project root to copy the file into place:
+
+```
+cp /path/to/your/altius_logo.png public/altius_logo.png
+git add public/altius_logo.png README.md
+git commit -m "Add Altius logo and README instructions"
+git push
+```
