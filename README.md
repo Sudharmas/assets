@@ -77,7 +77,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![Project Logo](src/assets/logo.png) (src/assets/altius_logo.png)
 
 <img src="src/assets/logo.png">
-<img src="src/assets/altius_logo.png">
+<img src="src/">
 
 To display the Altius logo here and on GitHub Pages, add the image file to the public folder:
 
